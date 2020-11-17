@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>838105245055-mvknc35i5ka9qo09bg7g26ccpv7ot0u6.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.838105245055-mvknc35i5ka9qo09bg7g26ccpv7ot0u6</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAYmzRc1FJAsMGiS5DtPKs08e0hHF6WE1I</string>
+	<key>GCM_SENDER_ID</key>
+	<string>838105245055</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>tokyo.teranyan.SheepCoffee</string>
+	<key>PROJECT_ID</key>
+	<string>sheep-coffee</string>
+	<key>STORAGE_BUCKET</key>
+	<string>sheep-coffee.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:838105245055:ios:9cab072dedd01a744e264a</string>
+	<key>DATABASE_URL</key>
+	<string>https://sheep-coffee.firebaseio.com</string>
+</dict>
+</plist>
