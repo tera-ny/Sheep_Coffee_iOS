@@ -15,6 +15,8 @@
 		5F59B5B2255D82F0000B4281 /* SheepCoffeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F59B5B1255D82F0000B4281 /* SheepCoffeeUITests.swift */; };
 		5F59B5C1255D83BD000B4281 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F59B5C0255D83BD000B4281 /* Item.swift */; };
 		5F7839032561694100DAC4AD /* TextSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7839022561694100DAC4AD /* TextSectionHeader.swift */; };
+		5F78390F25616F6A00DAC4AD /* ProductGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F78390E25616F6A00DAC4AD /* ProductGridCell.swift */; };
+		5F78391725616F9B00DAC4AD /* Preview.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F78391625616F9A00DAC4AD /* Preview.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		5F59B5B3255D82F0000B4281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F59B5C0255D83BD000B4281 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		5F7839022561694100DAC4AD /* TextSectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextSectionHeader.swift; sourceTree = "<group>"; };
+		5F78390E25616F6A00DAC4AD /* ProductGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductGridCell.swift; sourceTree = "<group>"; };
+		5F78391625616F9A00DAC4AD /* Preview.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Preview.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,7 @@
 				5F59B596255D82EC000B4281 /* ContentView.swift */,
 				5F7838F5256168EC00DAC4AD /* UIConponents */,
 				5F59B598255D82EF000B4281 /* Assets.xcassets */,
+				5F78391625616F9A00DAC4AD /* Preview.xcassets */,
 				5F59B59D255D82EF000B4281 /* Info.plist */,
 				5F59B59A255D82EF000B4281 /* Preview Content */,
 			);
@@ -147,6 +152,7 @@
 		5F7838F5256168EC00DAC4AD /* UIConponents */ = {
 			isa = PBXGroup;
 			children = (
+				5F78390D25616F2700DAC4AD /* Molcules */,
 				5F7839012561694100DAC4AD /* Atoms */,
 			);
 			path = UIConponents;
@@ -158,6 +164,14 @@
 				5F7839022561694100DAC4AD /* TextSectionHeader.swift */,
 			);
 			path = Atoms;
+			sourceTree = "<group>";
+		};
+		5F78390D25616F2700DAC4AD /* Molcules */ = {
+			isa = PBXGroup;
+			children = (
+				5F78390E25616F6A00DAC4AD /* ProductGridCell.swift */,
+			);
+			path = Molcules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F78391725616F9B00DAC4AD /* Preview.xcassets in Resources */,
 				5F59B59C255D82EF000B4281 /* Preview Assets.xcassets in Resources */,
 				5F59B599255D82EF000B4281 /* Assets.xcassets in Resources */,
 			);
@@ -292,6 +307,7 @@
 				5F59B597255D82EC000B4281 /* ContentView.swift in Sources */,
 				5F7839032561694100DAC4AD /* TextSectionHeader.swift in Sources */,
 				5F59B5C1255D83BD000B4281 /* Item.swift in Sources */,
+				5F78390F25616F6A00DAC4AD /* ProductGridCell.swift in Sources */,
 				5F59B595255D82EC000B4281 /* SheepCoffeeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
